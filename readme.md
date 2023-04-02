@@ -1,6 +1,6 @@
 ## OpenAI API Test
 
-This is a test of the openAI API.
+This is a test of the openAI's API.
 
 It simulates a virtual assistant over voice.
 
