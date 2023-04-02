@@ -49,6 +49,7 @@ def get_prompt():
   with sr.Microphone() as source:
     audio = r.listen(source)
     prompt = r.recognize_google(audio, language=language_config["language"])
+    print(prompt)
     return prompt
 
 
